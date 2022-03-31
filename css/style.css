@@ -1,0 +1,125 @@
+h2 {
+    text-decoration: underline;
+    background-color: rgb(188, 142, 231);
+    color: white;
+    letter-spacing: 0.10em;
+    line-height: 2;
+    text-align: center;
+    font-family: Copperplate,
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+
+p {
+    color: rgb(21, 21, 130);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#paralove {
+    width: 600px;
+    margin: 0 auto; 
+    font-size: 18px;
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+}
+
+a {
+    color: purple;
+
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+   
+}
+
+#div1 {
+    background-color: #ebd7fa;
+    height: 5em;
+
+}
+
+#div2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 1px;
+
+}
+
+
+#div3 {
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    position: static;
+
+}
+
+#div4 {
+    background-color:#ebd7fa;
+}
+
+#div5 { 
+    background-color: rgb(255, 255, 255);
+}
+
+#div6 {
+    background-color: rgb(211, 250, 152);
+}
+
+#div7 {
+
+    background-color: rgb(245, 255, 182);
+    text-align: center;
+}
+
+#div8 {
+    text-align: center;
+}
+
+#div1, #div4, #div5, #div6, #div7 {
+    border: dashed;
+}
+
+#div1, #div4, #div5, #div6 {
+    text-align: center;
+}
+
+.marquee {
+    width: 282px;
+    margin:0 auto;
+    text-align: center;
+}
+
+form {
+    padding: 25px;
+    background-color: #ebd7fa;
+    font-style: italic;
+    border-style: solid;
+    font-weight: 900px
+}
+input[type=button]:hover {
+    color: rgb(14, 16, 39);
+    background-color: rgb(209, 238, 151);
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+
+}
+
+input[type=text]:focus {
+    background-color: rgb(245, 250, 152);
+    color: rgb(10, 88, 19);
+    width: 100%;
+    transition: 3s;
+
+}
